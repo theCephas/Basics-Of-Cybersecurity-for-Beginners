@@ -5,12 +5,25 @@ body{
 fieldset{
     background-color: #ebebeb;
     line-height: 30px;
+    width: 400px;
 }
+
 fieldset > nav > ul > li > a{
     color: blue;
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
+}
+@media screen and (max-width: 400px){
+    fieldset{
+        width: 300px;
+    }
+    fieldset > nav > ul > li > a{
+        color: blue;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 15px;
+    }
 }
 legend{
     font-weight: 700;
