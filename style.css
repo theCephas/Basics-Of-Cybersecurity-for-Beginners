@@ -1,0 +1,33 @@
+body{
+    background-color: #cad2c5;
+    font-family: 'Karla', sans-serif;
+}
+fieldset{
+    background-color: #ebebeb;
+    line-height: 30px;
+}
+fieldset > nav > ul > li > a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+legend{
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+h4{
+    font-size: 20px;
+}
+.kick{
+    color: blue;
+    text-decoration: none;
+}
+.kick:visited{
+    color: blue;
+}
+p{
+    font-size: 14px;
+    line-height: 19px;
+}
